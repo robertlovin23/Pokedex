@@ -95,7 +95,7 @@ class App extends React.Component{
   render(){
     const { pokemonList,initPokemon } = this.state;
     console.log(pokemonList.length, initPokemon.length)
-    if(!this.state.initPokemon.length){
+    if(!initPokemon.length){
       return(
         <div>Loading...</div>
       )
