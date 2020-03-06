@@ -1,5 +1,6 @@
 import React from "react"
 
+//Uses a query string passed through an onChange handler to use the search form
 class Search extends React.Component{
     state={
         query: ""
