@@ -47,7 +47,7 @@ const PokedexList = ({selectPokemon,pokemonList}) => {
         )
     })
     return(
-        <div className="ui cards container grid">
+        <div className="ui stackable cards container grid">
             {response}
         </div>
     )
